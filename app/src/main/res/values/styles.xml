@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TitleCustom" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/bluePrimary</item>
+    </style>
+
+    <style name="ButtonCustom" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16dp</item>
+        <item name="cornerRadius">15px</item>
+    </style>
+
+    <style name="TextViewInfo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewCustom" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:layout_width">380dp</item>
+        <item name="android:layout_height">400dp</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+</resources>
